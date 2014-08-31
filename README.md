@@ -1,5 +1,5 @@
 # leafly
-Leafly API client
+Leafly API client for leafly.com
 
 ## Installation
     $ npm install leafly

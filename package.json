@@ -1,7 +1,7 @@
 {
   "name": "leafly",
   "version": "0.0.0",
-  "description": "leafly API client",
+  "description": "leafly API client for leafly.com",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
