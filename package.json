@@ -1,0 +1,20 @@
+{
+  "name": "leafly",
+  "version": "0.0.0",
+  "description": "leafly API client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "leafly",
+    "medical",
+    "strains"
+  ],
+  "author": "opfl",
+  "license": "MIT",
+  "dependencies": {
+    "promise": "^5.0.0",
+    "hyperquest": "^0.3.0"
+  }
+}
