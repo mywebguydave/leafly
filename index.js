@@ -17,7 +17,7 @@ module.exports = (function() {
 	function request(url, options) {
 		return new Promise(function(resolve, reject) {
   			var cb = function(err, res) {
-				if(res && res.statusCode === 301 || res.statusCode === 302) 
+				if(res && (res.statusCode === 301 || res.statusCode === 302)) 
 				return hyperquest(res.headers.Location, options, cb);
 			}, req = hyperquest(url, options, cb), body = '';
 
