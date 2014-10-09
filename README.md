@@ -1,12 +1,6 @@
 # leafly
 Leafly API client for leafly.com
 
-## Installation
-    $ npm install leafly
-
-## Tests
-    $ npm test
-
 ## Examples
 
 ```javascript
